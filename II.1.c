@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-int a[100], i, NumberOfZeros;
+int a[100], i, NumberOfZeros, n;
 int produs;
 int main()
 {
+    scanf("%d", &n);
 produs = 1;
-    for(i = 1; i <= 100; i++){
-        scanf("%d", &a[i]);
+    for(i = 1; i <= n; i++){
+        scanf("%d", a);
         produs = produs*a[i];}
     while(produs != 0)
     if(produs%10 == 0){
