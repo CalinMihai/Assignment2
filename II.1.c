@@ -8,7 +8,7 @@ int main()
     scanf("%d", &n);
 produs = 1;
     for(i = 1; i <= n; i++){
-        scanf("%d", a);
+        scanf("%d", &a[i]);
         produs = produs*a[i];}
     while(produs != 0)
     if(produs%10 == 0){
